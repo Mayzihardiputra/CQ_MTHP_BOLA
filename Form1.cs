@@ -151,7 +151,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 MessageBox.Show("Berhasil update! Baris: " + hasil);
 
                 conn.Close();
-            } 
+            } // catch untuk menangani error jika terjadi kesalahan
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
