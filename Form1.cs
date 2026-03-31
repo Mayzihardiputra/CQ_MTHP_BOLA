@@ -135,7 +135,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 MessageBox.Show(ex.Message);
             } 
         }
-        private void btnUpdateMK_Click(object sender, EventArgs e)
+        private void btnUpdateMK_Click(object sender, EventArgs e) // button mk
         {
             try
             {
@@ -151,7 +151,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 MessageBox.Show("Berhasil update! Baris: " + hasil);
 
                 conn.Close();
-            }
+            } 
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
