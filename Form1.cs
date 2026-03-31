@@ -91,7 +91,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
             } // finally untuk menutup koneksi jika terjadi kesalahan
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e) // button update
         {
             try
             {
