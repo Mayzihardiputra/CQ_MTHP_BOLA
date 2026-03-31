@@ -157,7 +157,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 MessageBox.Show(ex.Message);
             } 
         }
-        private void btnInsertProdi_Click(object sender, EventArgs e)
+        private void btnInsertProdi_Click(object sender, EventArgs e) // button insert prodi
         {
             try
             {
