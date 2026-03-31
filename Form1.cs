@@ -64,7 +64,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message); // menampilkan pesan error jika terjadi kesalahan
             }
         }
 
