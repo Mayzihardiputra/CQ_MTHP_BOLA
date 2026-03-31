@@ -39,7 +39,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
 
                 conn.Close();
             } 
-            catch (Exception ex)
+            catch (Exception ex) //     untuk menangani error jika koneksi gagal
             {
                 MessageBox.Show(ex.Message);
             }
