@@ -52,7 +52,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 Koneksi();
                 conn.Open();
 
-                string query = "SELECT COUNT(*) FROM Mahasiswa";
+                string query = "SELECT COUNT(*) FROM Mahasiswa"; // query untuk menghitung jumlah mahasiswa
 
                 cmd = new SqlCommand(query, conn);
 
