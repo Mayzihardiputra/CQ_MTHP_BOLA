@@ -19,16 +19,16 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
         SqlConnection conn;
         SqlCommand cmd;
 
-        public Form1()
+        public Form1() // sesuaikan dengan nama form kalian, jika nama form kalian berbeda maka sesuaikan dengan nama form kalian
         {
             InitializeComponent();
         }
-        private void Koneksi()
+        private void Koneksi() // method untuk koneksi ke database, sesuaikan dengan nama server, nama database, dan autentikasi yang kalian gunakan
         {
             conn = new SqlConnection("Data Source=MAYZIHARDIPUTRA\\MAYZIHARDIPUTRA;Initial Catalog=DBAkademikADO;Integrated Security=True");
         }  
 
-        private void btnConnect_Click(object sender, EventArgs e)
+        private void btnConnect_Click(object sender, EventArgs e) //    event handler untuk button connect, sesuaikan dengan nama button kalian, jika nama button kalian berbeda maka sesuaikan dengan nama button kalian
         {
             try
             {
