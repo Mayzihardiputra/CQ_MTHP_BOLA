@@ -113,7 +113,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 MessageBox.Show(ex.Message);
             } 
         }
-        private void btnHitungDSN_Click(object sender, EventArgs e)
+        private void btnHitungDSN_Click(object sender, EventArgs e) // button hitung 
         {
             try
             {
