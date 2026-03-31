@@ -56,9 +56,9 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
 
                 cmd = new SqlCommand(query, conn);
 
-                int jumlah = (int)cmd.ExecuteScalar();
+                int jumlah = (int)cmd.ExecuteScalar(); 
 
-                txtHasil.Text = jumlah.ToString();
+                txtHasil.Text = jumlah.ToString(); // menampilkan hasil ke textbox
 
                 conn.Close();
             }
