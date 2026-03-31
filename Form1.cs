@@ -88,7 +88,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            } 
+            } // finally untuk menutup koneksi jika terjadi kesalahan
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
