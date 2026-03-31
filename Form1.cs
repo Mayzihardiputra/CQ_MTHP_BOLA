@@ -70,7 +70,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
 
         private void btnHitungMK_Click(object sender, EventArgs e) // repeat untuk button hitung 
         {
-            try
+            try 
             {
                 Koneksi();
                 conn.Open();
@@ -84,7 +84,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
                 txtHasil.Text = jumlah.ToString();
 
                 conn.Close();
-            } 
+            } // catch untuk menangani error jika terjadi kesalahan
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
