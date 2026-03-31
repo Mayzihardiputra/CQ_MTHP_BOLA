@@ -30,7 +30,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
 
         private void btnConnect_Click(object sender, EventArgs e) //    event handler untuk button connect, sesuaikan dengan nama button kalian, jika nama button kalian berbeda maka sesuaikan dengan nama button kalian
         {
-            try
+            try // untuk menangani error jika koneksi gagal
             {
                 Koneksi();
                 conn.Open();
