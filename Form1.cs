@@ -68,7 +68,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
             }
         }
 
-        private void btnHitungMK_Click(object sender, EventArgs e)
+        private void btnHitungMK_Click(object sender, EventArgs e) // repeat untuk button hitung 
         {
             try
             {
