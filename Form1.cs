@@ -45,7 +45,7 @@ namespace PraktikumADO  // namespace sesuai dengan nama project, jika nama proje
             }
         }
 
-        private void btnHitungMhs_Click(object sender, EventArgs e)
+        private void btnHitungMhs_Click(object sender, EventArgs e) // event handler untuk button hitung mahasiswa, sesuaikan dengan nama button
         {
             try
             {
